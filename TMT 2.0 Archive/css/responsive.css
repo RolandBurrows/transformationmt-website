@@ -1,0 +1,51 @@
+html {
+   -webkit-text-size-adjust: none;
+}
+.video embed,
+.video object,
+.video iframe {
+   width: 100%;
+   height: auto;
+}
+img{
+	max-width:100%;
+	height: auto;
+   	width: auto\9; /* ie8 */
+}
+
+@media only screen and (max-width: 9999px) {
+	header, footer, .featured{width:768px;}
+	header #titleMed{visibility:hidden;}
+}
+
+/*@media only screen and (max-width: 959px) {
+	header, footer, .featured{width:768px;}
+	header #titleMed{visibility:hidden;}
+}
+
+@media only screen and (max-width: 767px) {
+	header, footer, .featured{width:100%;}
+	header #title{visibility:hidden;}
+	header #titleMed{top: 100px;}
+	header nav {background-position: center;}
+	/*header #logo{visibility:hidden;}*/
+}
+
+/*@media only screen and (max-width:552px) {
+	header, footer, .featured{width:100%;}
+	header #title{top: 0px;}
+	header #logo{visibility:hidden;}
+	header nav {text-align: center}
+}
+
+@media only screen and (max-width: 479px) {
+	header, footer, .featured{width:100%;}
+	header #title{top: 0px;}
+	header #logo{visibility:hidden;}
+}
+
+@media only screen and (max-width: 384px) {
+	header, footer, .featured{width:100%;}
+	header #title{top: 0px;}
+	header #logo{visibility:hidden;}
+}*/
