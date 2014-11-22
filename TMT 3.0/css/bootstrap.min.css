@@ -938,7 +938,9 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 }
 h1, .h1, h2, .h2, h3, .h3 {
     margin-top: 20px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 h1 small, .h1 small, h2 small, .h2 small, h3 small, .h3 small, h1 .small, .h1 .small, h2 .small, .h2 .small, h3 .small, .h3 .small {
     font-size: 65%
@@ -969,7 +971,7 @@ h6, .h6 {
     font-size: 12px
 }
 p {
-    margin: 0 0 10px
+    margin: 0 20px 10px 20px;
 }
 .lead {
     margin-bottom: 20px;
@@ -5140,17 +5142,19 @@ button.close {
 .carousel-caption {
     position: absolute;
     right: 15%;
-    bottom: 20px;
+    bottom: 35px;
     left: 15%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 50px;
     color: #fff;
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6)
 }
 .carousel-caption .btn {
-    text-shadow: none
+    text-shadow: none;
+    margin-top: 15px;
 }
 @media screen and (min-width: 768px) {
     .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
@@ -5168,7 +5172,8 @@ button.close {
     .carousel-caption {
         right: 20%;
         left: 20%;
-        padding-bottom: 30px
+        padding-bottom: 20px;
+        margin-bottom: 50px;
     }
     .carousel-indicators {
         bottom: 20px
