@@ -937,7 +937,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
     color: #777
 }
 h1, .h1, h2, .h2, h3, .h3 {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -2439,7 +2439,8 @@ textarea.input-lg, textarea.form-group-lg .form-control, select[multiple].input-
 .btn-default {
     color: #333;
     background-color: #fff;
-    border-color: #ccc
+    border-color: #ccc;
+    margin-bottom: 10px
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
     color: #333;
