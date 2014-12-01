@@ -937,10 +937,10 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
     color: #777
 }
 h1, .h1, h2, .h2, h3, .h3 {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+/*    margin-left: 20px;*/
+/*    margin-right: 20px;*/
 }
 h1 small, .h1 small, h2 small, .h2 small, h3 small, .h3 small, h1 .small, .h1 .small, h2 .small, .h2 .small, h3 .small, .h3 .small {
     font-size: 65%
@@ -971,7 +971,7 @@ h6, .h6 {
     font-size: 12px
 }
 p {
-    margin: 0 20px 10px 20px;
+    margin: 0 0px 10px 0px;
 }
 .lead {
     margin-bottom: 20px;
@@ -982,6 +982,9 @@ p {
 @media (min-width: 768px) {
     .lead {
         font-size: 21px
+    }
+    .col-md-5 {
+        margin-top: 50px;
     }
 }
 small, .small {
@@ -1604,7 +1607,8 @@ pre code {
         width: 50%
     }
     .col-md-5 {
-        width: 41.66666667%
+        width: 41.66666667%;
+        margin-top: 20px;
     }
     .col-md-4 {
         width: 33.33333333%
@@ -2437,14 +2441,14 @@ textarea.input-lg, textarea.form-group-lg .form-control, select[multiple].input-
     opacity: .65
 }
 .btn-default {
-    color: #333;
-    background-color: #fff;
+    color: #fff;
+    background-color: #337ab7;
     border-color: #ccc;
     margin-bottom: 10px
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
-    color: #333;
-    background-color: #e6e6e6;
+    color: #fff;
+    background-color: #286090;
     border-color: #adadad
 }
 .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
@@ -2759,7 +2763,8 @@ tbody.collapse.in {
     font-size: 12px;
     line-height: 1.42857143;
     color: #777;
-    white-space: nowrap
+    white-space: nowrap;
+    text-decoration: underline;
 }
 .dropdown-backdrop {
     position: fixed;
@@ -5193,7 +5198,8 @@ button.close {
     margin-left: auto
 }
 .pull-right {
-    float: right!important
+    float: right!important;
+    margin-left: 20px
 }
 .pull-left {
     float: left!important
